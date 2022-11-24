@@ -19,7 +19,7 @@ h1 {
 }
 
 .form {
-    width: 300px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid#bfbebe;
@@ -32,6 +32,8 @@ h1 {
 h2 {
     color: #333;
     font-weight: 100;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .control{
@@ -44,6 +46,31 @@ h2 {
     width: 90px;
     text-align: right;
 
+}
+
+.ok-alert {
+    border: 1px solid rgb(9, 186, 9);
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 4px;
+    background-color: rgb(218, 226, 218);
+    box-shadow: -1px 1px 3px 0px rgb(211, 213, 211);  
+    
+    display: none;
+}
+
+.ok-alert p {
+    margin: 0;
+    color: darkgreen;  
+}
+
+.table{
+  
+}
+
+.table-parent{
+   margin: 30px
 }
 
 /* find a button to add  */
